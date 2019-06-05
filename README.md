@@ -1,5 +1,5 @@
 # RegExp
-Program to work with regular expression (in math style) and finite state machines. Site: https://Manash99.github.io/regexp/
+Program to work with regular expression (in math style) and finite state machines. Site: https://anuar96.github.io/regexp/
 
 ##Regular expressions format
 - abc -- concatination,

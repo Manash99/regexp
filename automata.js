@@ -708,9 +708,10 @@ Automata.prototype.reverseAutomata = function(){
 	}
 	return this;
 }
+
 Automata.prototype.minimizeAutomata = function(){
 	return (new Automata()).fromText(this.reverseAutomata().getDFAbyNFA()).reverseAutomata().getDFAbyNFA();
-}
+} 	
 function renameStates(text){
 	text = text.replace(/[ \t\r]/g, "");
 	var lines = text.split("\n");
